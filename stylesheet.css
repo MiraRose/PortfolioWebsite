@@ -12,6 +12,9 @@ a:hover {
   color:  #3a9679;
 }
 
+a:visited:hover {
+  color:  #3a9679;
+}
 a:visited {
   color: #e16262;
 }
@@ -54,7 +57,7 @@ h2 {
   text-align: center;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
-  font-size: 26px!important;
+  font-size: 35px!important;
 }
 
 h3 {
@@ -123,17 +126,11 @@ p {
 
 .customButton {
   display: block;
-  margin: auto;
+  margin: 5px auto;
   font-family: 'Montserrat', sans-serif;
   
 }
 
-.customButton :hover {
-  background-color: #7bc67b;
-  border-color: #5a3921;
-  font-family: 'Montserrat', sans-serif;
-  
-}
 
 .middleBar {
   /* background-color: #5a3921; */
@@ -151,9 +148,9 @@ p {
   
   padding-top: 5px;
   padding-right: 30px;
-  padding-bottom: 5px;
+  padding-bottom: 30px;
   padding-left: 30px;
-  margin: 25px 15px 0px 15px;
+  margin: 25px 15px 10px 15px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   font-size: 35px;
