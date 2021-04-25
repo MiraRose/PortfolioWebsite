@@ -10,21 +10,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
     <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One|Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=New+Tegomin&family=Quicksand&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
       integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
       crossorigin="anonymous"></script>
 
-    <title>Miranda Regan's Portfolio</title>
+    <title>The Worlds of Miranda Regan</title>
+    <link rel="shortcut icon" type="image/jpg" href="monstera_icon.svg"/>
 
   </head>
 
   <div id="title" class="container-fluid">
-    <div class="row titleBar1"></div>
+    <!-- <div class="row titleBar1"></div>
     <div class="row titleBar2"></div>
-    <div class="row titleBar3"></div>
-    <div class="row titleBar4">
-      <h1>Miranda Regan's Portfolio</h1>
+    <div class="row titleBar3"></div> -->
+    <div class="row titleBar1">
+      <h1>The Worlds of Miranda Regan</h1>
     </div>
   </div>
 
@@ -32,7 +34,7 @@
     <div class="row">
       <div class="col-sm-6">
         <div id="app" class="col-sm-12 mywell">
-          <h2>Projects</h2>
+          <h2>Written in Code</h2>
           <button v-on:click="backward()" class="customButton">
             <</button> <div><img class="projectsImg" v-bind:src="projectInView.image">
               <div class="center">
@@ -48,15 +50,12 @@
     </div>
     <div class="col-sm-6">
       <div class="col-sm-12 mywell">
-        <h2>About Me</h2>
+        <h2>About the Worldsmith</h2>
 
-        <img id="aboutMe" alt="A picture of me." class="smallImg" src="me.jpg">
+        <img id="aboutMe" alt="A picture of me." class="smallImg" src="miranda.jpg">
 
         <p>
-          I'm a creator. Whether that's creating new art, new worlds, or new solutions to problems, I'm happiest when
-          I'm molding life into new shapes. Now I'm expanding into the brave new medium of
-          programming with the help of <a href = "https://www.techelevator.com/" target = "_blank">Tech Elevator</a>. Currently I'm looking for a web or software development position where
-          I'll be challenged to grow in my new skills and be able to apply my creativity and attention to detail.
+          Miranda lives in the Midwest with two dogs, her brother, a pleco named Smeagol and a betta fish named nothing at all because you shouldn't name an extra-dimensional planar being lest it turn its void gaze upon you. She'll create a world or solve a puzzle in almost any medium, as long she can do it a little widdershins.
         </p>
 
         <hr class="hr-border">
@@ -66,20 +65,6 @@
           <a href="miranda.regan.pdf" target="_blank"><i class="far fa-file-pdf iMargin"></i>Resume</a>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div class="row">
-
-    <div class="col middleBar">
-
-      <h2>Words to Code</h2>
-      <p class="p-subtitle">A Blog About My Adventures in Tech Elevator and Learning to Program</p>
-      <hr class="hr-border">
-      <h3>Recent Posts</h3>
-
-      <script
-        src="//rss.bloople.net/?url=http%3A%2F%2Fwordstocode.blogspot.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&detail=50&limit=4&showtitle=false&striphtml=true&type=js"></script>
     </div>
   </div>
 

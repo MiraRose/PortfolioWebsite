@@ -1,22 +1,22 @@
 
 
 body {
-  background-color: whitesmoke;
+  background-color: #594A41;
 }
 
 a:link {
-  color: #e16262;
+  color: #5F7A6B;
 }
 
 a:hover {
-  color:  #3a9679;
+  color:  #A894A4;
 }
 
 a:visited:hover {
-  color:  #3a9679;
+  color:  #A894A4;
 }
 a:visited {
-  color: #e16262;
+  color: #A894A4;
 }
 
 .iMargin {
@@ -24,62 +24,43 @@ a:visited {
 }
 
 .titleBar1 {
-  background-color: #11144c;
-  height: 20px;
+  background-color: #5F7A6B;
+  height: 75px;
 }
 
-.titleBar2 {
-  background-color: #3a9679;
-  height: 25px;
-}
-
-.titleBar3 {
-  background-color: #fabc60;
-  height: 30px;
-}
-
-.titleBar4 {
-  background-color: #e16262;
-  height: 60px;
-}
 
 h1 {
   
-  color: #fabc60;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  font-family: 'Rubik Mono One', sans-serif;
+  color: #E8B99E;
+  font-family: 'Homemade Apple', cursive;;
+  margin-top: 46px;
   padding-left: 1%;
 }
 
 h2 {
-  color:  #e16262;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color:  #594A56;
   text-align: center;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 35px!important;
+  font-family: 'New Tegomin', serif;
 }
 
 h3 {
-  color:  #11144c;
+  color:  #594A56;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px!important;
-  
+  font-family: 'New Tegomin', serif;  
 }
 
 h4 {
-  color:  #11144c;
+  color:  #594A56;
   text-align: center;
-  font-family: 'Merriweather', serif;
-  font-size: 18px!important;
+  font-family: 'New Tegomin', serif;
   padding-bottom: 20px;
 }
 
 p {
-  color:  black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  color:  #594A56;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
 }
 
 .p-subtitle {
@@ -93,19 +74,20 @@ p {
   padding-right: 30px;
   padding-bottom: 15px;
   padding-left: 30px;
-  margin-top: 20px;
+  margin-top: 45px;
+  background-color: #E8B99E;
 }
 
 .smallImg {
   width: 200px;
-  border-radius: 2px;
+  border-radius: 10px;
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
   border-width: 10px;
-  border-color: #11144c;
-  border-style: solid;
-  box-shadow: 10px 10px #3a9679; 
+  border-color: #594A56;
+  border-style: double;
+
 }
 
 .center {
@@ -115,13 +97,13 @@ p {
 }
 
 .projectsImg {
-  border-radius: 2px;
+  border-radius: 10px;
   height: 300px;
   display: block;
   margin: 10px auto;
   border-width: 10px;
-  border-color: #11144c;
-  border-style: solid;
+  border-color: #594A56;
+  border-style: double;
 }
 
 .customButton {
