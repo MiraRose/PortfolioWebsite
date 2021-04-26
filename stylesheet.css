@@ -97,13 +97,13 @@ p {
 }
 
 .projectsImg {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   height: 300px;
   display: block;
   margin: 10px auto;
-  border-width: 10px;
+  /* border-width: 10px;
   border-color: #594A56;
-  border-style: double;
+  border-style: double; */
 }
 
 .customButton {
@@ -153,4 +153,10 @@ p {
 .feed-item-desc {
 
   font-size: 14px;
+}
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
 }
